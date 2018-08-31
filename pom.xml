@@ -15,6 +15,8 @@
             <name>blueapron</name>
         </developer>
     </developers>
+    <url>https://github.com/blueapron/kafka-connect-protobuf-converter</url>
+    <scm><url>https://github.com/blueapron/kafka-connect-protobuf-converter</url></scm>
     <properties>
         <protobuf.version>3.5.1</protobuf.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
