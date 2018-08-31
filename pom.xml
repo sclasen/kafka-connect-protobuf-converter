@@ -4,13 +4,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.github.blueapron</groupId>
+    <groupId>com.sclasen.com.github.blueapron</groupId>
     <artifactId>kafka-connect-protobuf-converter</artifactId>
     <packaging>jar</packaging>
     <version>2.0.1</version>
 
     <properties>
-        <protobuf.version>3.4.0</protobuf.version>
+        <protobuf.version>3.5.1</protobuf.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
@@ -31,7 +31,7 @@
         <dependency>
             <groupId>org.apache.kafka</groupId>
             <artifactId>connect-api</artifactId>
-            <version>1.0.0</version>
+            <version>1.1.1</version>
         </dependency>
         <dependency>
             <groupId>com.google.protobuf</groupId>
